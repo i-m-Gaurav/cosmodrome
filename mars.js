@@ -100,18 +100,18 @@ function errorImage(mode) {
 // for enable main image
 
 function enableImage() {
-    document.getElementById("pic").style.display = "inline-block";
+    document.getElementById("marsPic").style.display = "inline-block";
 }
 // for disable main image when it will not available
 function disableImage() {
-    document.getElementById("pic").style.display = "none";
+    document.getElementById("marsPic").style.display = "none";
 
 }
 
 // when image is successfully parsed from the server then, showpic() will allow to show that pictures on the webpage.
 
 function showPic() {
-    var image = document.getElementById("pic");
+    var image = document.getElementById("marsPic");
     image.onload = function () {
         loadingImg('none');
         enableImage();
