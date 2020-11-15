@@ -1,376 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="mars.js"></script>
-    <title>Mars Rovers</title>
-    <link rel="icon" href="favicon.ico" />
-    <link rel="stylesheet" href="main.css" />
-    <!-- <link rel="stylesheet" href="mars.css" /> -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <script src="https://use.fontawesome.com/77725000d7.js"></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-  
 
-    <!-- Navigation -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="mars.js"></script>
+  <title>Mars Rovers</title>
 
-    <nav class="Navigation" id="Navigation">
-      <div class="logo">
-        <div id="menu" class="menu">
+  <link rel="stylesheet" href="css/main.css" />
+  <!-- <link rel="stylesheet" href="mars.css" /> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <script src="https://use.fontawesome.com/77725000d7.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap" rel="stylesheet" />
 
-          <span onclick="open_ham();"><img id="menu_btn" src="svg/ham_menu.svg" alt="ham_menu"/></span>
-        </div>
-        <div class="cosmo_logo">
-          <span><img src="svg/logo.svg" alt="" /></span>
-        </div>
-        <div class="cosmo_text">
-          <a href="#"><img src="svg/cosmodrome.svg" alt="" /></a>
-        </div>
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/site.webmanifest" />
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+
+  <nav class="Navigation" id="Navigation">
+    <div class="logo">
+      <div id="menu" class="menu">
+
+        <span onclick="open_ham();"><img id="menu_btn" src="svg/ham_menu.svg" alt="ham_menu" /></span>
       </div>
-
-      <div class="page_links">
-        <span><a href="../index.html">HOME</a> </span>
-        <span><a href="../epic/index.html">EPIC</a> </span>
-        <span><a href="../MarsRover/index.html">EXPLORE MARS</a> </span>
-        <span><a href="../ivl/index.html">IMAGE & VIDEO</a> </span>
+      <div class="cosmo_logo">
+        <span><img src="svg/logo.svg" alt="" /></span>
       </div>
-    </nav>
-
-<!-- sidebar menu -->
-
-    <div id="ham_menu" class="ham_menu">
-      
-      <div class="ham_menu_links">
-       
-        <a href="../index.html">HOME</a>
-        <a href="../epic/index.html">EPIC</a>
-        
-      
-          <a href="../MarsRover/index.html" id="explore_mars_ham_button">
-            EXPLORE MARS</a>
-      
-        
-        
-       
-        <a href="../ivl/index.html">IMAGE & VIDEO</a>
-      </div>
-
-      <div class="ham_menu_footer">
-        <img src="svg/github.svg" alt="About" />
-
-        <p>The Cosmodrome Project 1.0</p>
+      <div class="cosmo_text">
+        <a href="../index.html"><img src="svg/cosmodrome.svg" alt="" /></a>
       </div>
     </div>
 
-    <main class="main_body">
-      
-      <header class="heading">
-        <div class="title_head">
-          <p>MARS ROVER IMAGE GALLERY</p>
-        </div>
-        <!-- <div class="title">
+    <div class="page_links">
+      <span><a href="../index.html">HOME</a> </span>
+      <span><a href="../epic/index.html">EPIC</a> </span>
+      <span><a href="./index.html">EXPLORE MARS</a> </span>
+      <span><a href="../ivl/index.html">IMAGE & VIDEO</a> </span>
+    </div>
+  </nav>
+
+  <!-- sidebar menu -->
+
+  <div id="ham_menu" class="ham_menu">
+
+    <div class="ham_menu_links">
+
+      <a href="../index.html">HOME</a>
+      <a href="../epic/index.html">EPIC</a>
+
+
+      <a href="./index.html" id="explore_mars_ham_button">
+        EXPLORE MARS</a>
+
+
+
+
+      <a href="../ivl/index.html">IMAGE & VIDEO</a>
+    </div>
+
+    <div class="ham_menu_footer">
+      <img src="svg/github.svg" alt="About" />
+
+      <p>The Cosmodrome Project 1.0</p>
+    </div>
+  </div>
+
+  <main class="main_body">
+
+    <header class="heading">
+      <div class="title_head">
+        <p>MARS ROVER IMAGE GALLERY</p>
+      </div>
+      <!-- <div class="title">
           <p>MARS ROVER IMAGE GALLERY</p>
           
         </div> -->
-        <div class="subtitle">
-          <p>Image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars</p>
-        </div>
-      </header>
-      <a href="#choose_rover_section">
-        <div class="explore_btn">
-          <span>
-      
-              <img src="svg/introbtn.svg" alt="" />
-            
-          </span>
-        </div>
-      </a>
-      
-    </main>
-
-    <section id="roverinfo" class="roverinfo">
-      <div class="roverTitle">
-        <h2>MARS ROVERS</h2>
+      <div class="subtitle">
+        <p>Image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars</p>
       </div>
-      <div class="rover_card1">
-        <div class="img">
-          <img src="image/curiosity.jpg" alt="curiosity" />
-        </div>
-        <div class="info">
-          <h2>Curiosity</h2>
-          <span>Launch Date : Aug 6th, 2012.</span>
-          <span>Landing on Mars : Aug 6th, 2012.</span>
+    </header>
+    <a href="#choose_rover_section">
+      <div class="explore_btn">
+        <span>
 
-          <p>
-            GOAL: Determine if Mars was ever able to support microbial life. as to study the climate and geology of Mars.
-            <br>
-            <br>
-             <a href="https://mars.nasa.gov/msl/home/">Read more.</a>
-          </p>
-          
-        </div>
+          <img src="svg/introbtn.svg" alt="" />
+
+        </span>
       </div>
+    </a>
 
-      <div class="rover_card1">
-        <div class="img">
-          <img src="image/opportunity.jpg" alt="curiosity" />
-        </div>
-        <div id="curiosity_info" class="info">
-          <h2>Opportunity</h2>
-          <span>Launch Date : July 7th, 2003.</span>
-          <span>Landing on Mars : Jan 25th, 2004.</span>
+  </main>
 
-          <p>
-            GOAL: To determine if the potential for life exists on Mars (in particular, whether recoverable water may be found on Mars).
-            <br>
-            <br>
-           <a href="https://mars.nasa.gov/mer/mission/rover-status/#recent">Read more.</a>
-          </p>
-        </div>
+  <section id="roverinfo" class="roverinfo">
+    <div class="roverTitle">
+      <h2>MARS ROVERS</h2>
+    </div>
+    <div class="rover_card1">
+      <div class="img">
+        <img src="image/curiosity.jpg" alt="curiosity" />
       </div>
+      <div class="info">
+        <h2>Curiosity</h2>
+        <span>Launch Date : Aug 6th, 2012.</span>
+        <span>Landing on Mars : Aug 6th, 2012.</span>
 
-      <div class="rover_card1">
-        <div class="img">
-          <img src="image/spirit.jpg" alt="curiosity" />
-        </div>
-        <div class="info">
-          <h2>Spirit</h2>
-          <span>Launch Date : June 10th, 2003.</span>
-          <span>Landing on Mars : Jan 4th, 2004.</span>
+        <p>
+          GOAL: Determine if Mars was ever able to support microbial life. as to study the climate and geology of Mars.
+          <br>
+          <br>
+          <a href="https://mars.nasa.gov/msl/home/">Read more.</a>
+        </p>
 
-          <p>
-            GOAL:  To search for a range of rocks and soil types and then look for clues for past water activity on Mars.
-            <br>
-            <br>
-             <a href="https://mars.nasa.gov/mer/mission/rover-status/#recent">Read more.</a>
-          </p>
-        </div>
-      </div>
-
-      
-    </section>
-
-    <section id="rover_section">
-      <section id="rovers_intro_heading">
-        <h1>Mars Exploration Rovers</h1>
-      </section>
-      <div id="curiosity_intro">
-        <div class="text mars_rovers_header">
-          <h2>Curiosity</h2>
-          <p>
-            Part of NASA's Mars Science Laboratory mission, Curiosity is the
-            largest and most capable rover ever sent to Mars. It launched
-            November 26, 2011 and landed on Mars at 10:32 p.m. PDT on Aug. 5,
-            2012 (1:32 a.m. EDT on Aug. 6, 2012).
-          </p>
-        </div>
-        <div class="rover rover_info_image">
-          <img src="image/curiosity.jpg" alt="" />
-        </div>
-      </div>
-      <div id="opportunity_intro">
-        <div class="text mars_rovers_header">
-          <h2>Opportunity</h2>
-          <p>
-            Opportunity, also known as MER-B (Mars Exploration Rover – B) or
-            MER-1, and nicknamed "Oppy",[8] is a robotic rover that was active
-            on Mars from 2004 until the middle of 2018.[2] Launched on July 7,
-            2003, as part of NASA's Mars Exploration Rover program, it landed in
-            Meridiani Planum on January 25, 2004, three weeks after its twin
-            Spirit (MER-A) touched down on the other side of the planet.
-          </p>
-        </div>
-        <div class="rover rover_info_image">
-          <img src="image/opportunity.jpg" alt="" />
-        </div>
-      </div>
-      <div id="spirit_intro">
-        <div class="text mars_rovers_header">
-          <h2>Spirit</h2>
-          <p>
-            Spirit, also known as MER-A (Mars Exploration Rover – A) or MER-2,
-            is a robotic rover on Mars, active from 2004 to 2010.[2] It was one
-            of two rovers of NASA's Mars Exploration Rover Mission. It landed
-            successfully within the impact crater Gusev on Mars at 04:35 Ground
-            UTC on January 4, 2004.
-          </p>
-        </div>
-        <div class="rover rover_info_image">
-          <img src="image/spirit.jpg" alt="" />
-        </div>
-      </div>
-    </section>
-    <div id="choose_rover_section" class="choose_rover_section">
-      <div class="chooseRover">
-        <h1>Choose Rover</h1>
-      </div>
-
-      <div class="select_rover_container">
-        <div class="select_rover">
-          <div class="rover_img" onclick="getDateSelect();">
-            <a
-              id="curiosity_link"
-              href="#choose_date_page"
-              onclick="selectRover(),check_cur();"
-            >
-              <img src="image/curiosity.jpg" alt="curiosity" />
-            </a>
-          </div>
-          <div class="rover_name">
-            <a href="#choose_date_page" onclick="selectRover(),check_cur();">
-              CURIOSITY
-            </a>
-          </div>
-        </div>
-        <div class="select_rover">
-          <div class="rover_img" onclick="getDateSelect();">
-            <a href="#choose_date_page" onclick="check_opp(),selectRover();">
-              <img src="image/opportunity.jpg" alt="Opportunity" />
-            </a>
-          </div>
-          <div class="rover_name">
-            <a href="#choose_date_page" onclick="selectRover(),check_cur();">
-              OPPORTUNITY
-            </a>
-          </div>
-        </div>
-        <div class="select_rover">
-          <div class="rover_img" onclick="getDateSelect();">
-            <a href="#choose_date_page" onclick="check_spi(),selectRover();">
-              <img src="image/spirit.jpg" alt="Spirit" />
-            </a>
-          </div>
-          <div class="rover_name">
-            <a href="#choose_date_page" onclick="selectRover(),check_cur();">
-              SPIRIT
-            </a>
-          </div>
-        </div>
       </div>
     </div>
 
-    <!-- choose date section -->
-
-    <section id="choose_date_page" class="choose_date_page" >
-
-      <div class="choose_date_heading">
-        <h2>Choose Date</h2>
-        </div>
-        <div class="dateRangeOfRovers_heading">
-          <strong>Choose Under This Date Range</strong>
-        </div>
-        <div class="dateRangeOfRovers">
-          <strong id="Curiosity_date_range" class="Curiosity_date_range" >6th Aug, 2012 to Till now.</strong>
-          <strong id="Opportunity_date_range" class="Opportunity_date_range">Jan 25, 2004 to June 10, 2018</strong>
-          <strong id="Spirit_date_range" class="Spirit_date_range">Jan 4, 2004 to March 22, 2010</strong>
-        </div>
-      <div class="choose_date_box">
-        
-
-        <div class="choose_date_selector">
- 
-         <select name="day" id="day" required>
-           <option value="0">Day</option>
-           <option value="01">01</option>
-           <option value="02">02</option>
-           <option value="03">03</option>
-           <option value="04">04</option>
-           <option value="05">05</option>
-           <option value="06">06</option>
-           <option value="07">07</option>
-           <option value="08">08</option>
-           <option value="09">09</option>
-           <option value="10">10</option>
-           <option value="11">11</option>
-           <option value="12">12</option>
-           <option value="13">13</option>
-           <option value="14">14</option>
-           <option value="15">15</option>
-           <option value="16">16</option>
-           <option value="17">17</option>
-           <option value="18">18</option>
-           <option value="19">19</option>
-           <option value="20">20</option>
-           <option value="21">21</option>
-           <option value="22">22</option>
-           <option value="23">23</option>
-           <option value="24">24</option>
-           <option value="25">25</option>
-           <option value="26">26</option>
-           <option value="27">27</option>
-           <option value="28">28</option>
-           <option value="29">29</option>
-           <option value="30">30</option>
-           <option value="31">31</option>
-         </select>
-         <select name="month" id="month" required>
-           <option value="0">Month</option>
-           <option value="01">Jan</option>
-           <option value="02">Feb</option>
-           <option value="03">Mar</option>
-           <option value="04">Apr</option>
-           <option value="05">May</option>
-           <option value="06">Jun</option>
-           <option value="07">Jul</option>
-           <option value="08">Aug</option>
-           <option value="09">Sep</option>
-           <option value="10">Oct</option>
-           <option value="11">Nov</option>
-           <option value="12">Dec</option>
-         </select>
-         <select name="year"  id="year" required>
-           <option value="0">Year</option>
-           <option  value="2004">2004</option>
-           <option  value="2005">2005</option>
-           <option  value="2006">2006</option>
-           <option  value="2007">2007</option>
-           <option  value="2008">2008</option>
-           <option  value="2009">2009</option>
-           <option  value="2010">2010</option>
-           <option  value="2011">2011</option>
-           <option  value="2012">2012</option>
-           <option  value="2013">2013</option>
-           <option  value="2014">2014</option>
-           <option  value="2015">2015</option>
-           <option  value="2016">2016</option>
-           <option  value="2017">2017</option>
-           <option  value="2018">2018</option>
-           <option  value="2019">2019</option>
-           <option  value="2020">2020</option>
-           <option  value="2021">2020</option>
-           
-         </select>
- 
-       </div>
- 
- 
-       <div id="search_btn" class="search_btn">
- 
-         <a href="#imageContainer" onclick="getDay(),allPhotos(),checkForDate();">
-           <button >
-             EXPLORE
-               </button>
-         </a>
-         
-       </div>
- 
- 
+    <div class="rover_card1">
+      <div class="img">
+        <img src="image/opportunity.jpg" alt="curiosity" />
       </div>
-      
-     
-     
-   </section>
+      <div id="curiosity_info" class="info">
+        <h2>Opportunity</h2>
+        <span>Launch Date : July 7th, 2003.</span>
+        <span>Landing on Mars : Jan 25th, 2004.</span>
 
-       <!-- Camera angle section -->
+        <p>
+          GOAL: To determine if the potential for life exists on Mars (in particular, whether recoverable water may be
+          found on Mars).
+          <br>
+          <br>
+          <a href="https://mars.nasa.gov/mer/mission/rover-status/#recent">Read more.</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="rover_card1">
+      <div class="img">
+        <img src="image/spirit.jpg" alt="curiosity" />
+      </div>
+      <div class="info">
+        <h2>Spirit</h2>
+        <span>Launch Date : June 10th, 2003.</span>
+        <span>Landing on Mars : Jan 4th, 2004.</span>
+
+        <p>
+          GOAL: To search for a range of rocks and soil types and then look for clues for past water activity on Mars.
+          <br>
+          <br>
+          <a href="https://mars.nasa.gov/mer/mission/rover-status/#recent">Read more.</a>
+        </p>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="rover_section">
+    <section id="rovers_intro_heading">
+      <h1>Mars Exploration Rovers</h1>
+    </section>
+    <div id="curiosity_intro">
+      <div class="text mars_rovers_header">
+        <h2>Curiosity</h2>
+        <p>
+          Part of NASA's Mars Science Laboratory mission, Curiosity is the
+          largest and most capable rover ever sent to Mars. It launched
+          November 26, 2011 and landed on Mars at 10:32 p.m. PDT on Aug. 5,
+          2012 (1:32 a.m. EDT on Aug. 6, 2012).
+        </p>
+      </div>
+      <div class="rover rover_info_image">
+        <img src="image/curiosity.jpg" alt="" />
+      </div>
+    </div>
+    <div id="opportunity_intro">
+      <div class="text mars_rovers_header">
+        <h2>Opportunity</h2>
+        <p>
+          Opportunity, also known as MER-B (Mars Exploration Rover – B) or
+          MER-1, and nicknamed "Oppy",[8] is a robotic rover that was active
+          on Mars from 2004 until the middle of 2018.[2] Launched on July 7,
+          2003, as part of NASA's Mars Exploration Rover program, it landed in
+          Meridiani Planum on January 25, 2004, three weeks after its twin
+          Spirit (MER-A) touched down on the other side of the planet.
+        </p>
+      </div>
+      <div class="rover rover_info_image">
+        <img src="image/opportunity.jpg" alt="" />
+      </div>
+    </div>
+    <div id="spirit_intro">
+      <div class="text mars_rovers_header">
+        <h2>Spirit</h2>
+        <p>
+          Spirit, also known as MER-A (Mars Exploration Rover – A) or MER-2,
+          is a robotic rover on Mars, active from 2004 to 2010.[2] It was one
+          of two rovers of NASA's Mars Exploration Rover Mission. It landed
+          successfully within the impact crater Gusev on Mars at 04:35 Ground
+          UTC on January 4, 2004.
+        </p>
+      </div>
+      <div class="rover rover_info_image">
+        <img src="image/spirit.jpg" alt="" />
+      </div>
+    </div>
+  </section>
+  <div id="choose_rover_section" class="choose_rover_section">
+    <div class="chooseRover">
+      <h1>Choose Rover</h1>
+    </div>
+
+    <div class="select_rover_container">
+      <div class="select_rover">
+        <div class="rover_img" onclick="getDateSelect();">
+          <a id="curiosity_link" href="#choose_date_page" onclick="selectRover(),check_cur();">
+            <img src="image/curiosity.jpg" alt="curiosity" />
+          </a>
+        </div>
+        <div class="rover_name">
+          <a href="#choose_date_page" onclick="selectRover(),check_cur();">
+            CURIOSITY
+          </a>
+        </div>
+      </div>
+      <div class="select_rover">
+        <div class="rover_img" onclick="getDateSelect();">
+          <a href="#choose_date_page" onclick="check_opp(),selectRover();">
+            <img src="image/opportunity.jpg" alt="Opportunity" />
+          </a>
+        </div>
+        <div class="rover_name">
+          <a href="#choose_date_page" onclick="selectRover(),check_cur();">
+            OPPORTUNITY
+          </a>
+        </div>
+      </div>
+      <div class="select_rover">
+        <div class="rover_img" onclick="getDateSelect();">
+          <a href="#choose_date_page" onclick="check_spi(),selectRover();">
+            <img src="image/spirit.jpg" alt="Spirit" />
+          </a>
+        </div>
+        <div class="rover_name">
+          <a href="#choose_date_page" onclick="selectRover(),check_cur();">
+            SPIRIT
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- choose date section -->
+
+  <section id="choose_date_page" class="choose_date_page">
+
+    <div class="choose_date_heading">
+      <h2>Choose Date</h2>
+    </div>
+    <div class="dateRangeOfRovers_heading">
+      <strong>Choose Under This Date Range</strong>
+    </div>
+    <div class="dateRangeOfRovers">
+      <strong id="Curiosity_date_range" class="Curiosity_date_range">6th Aug, 2012 to Till now.</strong>
+      <strong id="Opportunity_date_range" class="Opportunity_date_range">Jan 25, 2004 to June 10, 2018</strong>
+      <strong id="Spirit_date_range" class="Spirit_date_range">Jan 4, 2004 to March 22, 2010</strong>
+    </div>
+    <div class="choose_date_box">
+
+
+      <div class="choose_date_selector">
+
+        <select name="day" id="day" required>
+          <option value="0">Day</option>
+          <option value="01">01</option>
+          <option value="02">02</option>
+          <option value="03">03</option>
+          <option value="04">04</option>
+          <option value="05">05</option>
+          <option value="06">06</option>
+          <option value="07">07</option>
+          <option value="08">08</option>
+          <option value="09">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <select name="month" id="month" required>
+          <option value="0">Month</option>
+          <option value="01">Jan</option>
+          <option value="02">Feb</option>
+          <option value="03">Mar</option>
+          <option value="04">Apr</option>
+          <option value="05">May</option>
+          <option value="06">Jun</option>
+          <option value="07">Jul</option>
+          <option value="08">Aug</option>
+          <option value="09">Sep</option>
+          <option value="10">Oct</option>
+          <option value="11">Nov</option>
+          <option value="12">Dec</option>
+        </select>
+        <select name="year" id="year" required>
+          <option value="0">Year</option>
+          <option value="2004">2004</option>
+          <option value="2005">2005</option>
+          <option value="2006">2006</option>
+          <option value="2007">2007</option>
+          <option value="2008">2008</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+          <option value="2011">2011</option>
+          <option value="2012">2012</option>
+          <option value="2013">2013</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2020</option>
+
+        </select>
+
+      </div>
+
+
+      <div id="search_btn" class="search_btn">
+
+        <a href="#imageContainer" onclick="getDay(),allPhotos(),checkForDate();">
+          <button>
+            EXPLORE
+          </button>
+        </a>
+
+      </div>
+
+
+    </div>
+
+
+
+  </section>
+
+  <!-- Camera angle section -->
 
   <section class="camera_angles_section">
     <div class="camera_angles ">
@@ -391,92 +390,80 @@
     </div>
   </section>
 
-   <section>
-    <input
-    type="date"
-    id="dateText"
-    style="display: none;"
-  />
+  <section>
+    <input type="date" id="dateText" style="display: none;" />
   </section>
-    <section id="hidden_rover_selector" style="display:  none;">
-      <input type="radio" name="rover" id="curiosity_r">
-      <input type="radio" name="rover" id="opportunity_r">
-      <input type="radio" name="rover" id="spirit_r">
-    </section>
-    <section>
-    
+  <section id="hidden_rover_selector" style="display:  none;">
+    <input type="radio" name="rover" id="curiosity_r">
+    <input type="radio" name="rover" id="opportunity_r">
+    <input type="radio" name="rover" id="spirit_r">
+  </section>
+  <section>
 
-   
 
-      <div id="toggle" style="visibility: hidden;">
+
+
+    <div id="toggle" style="visibility: hidden;">
+    </div>
+    <div>
+      <!-- <img src="" id="notFoundq" style="display: none;" alt="" /> -->
+      <div id="notFound" class="notFound" style="display: none;">
+        <h1>No photos for this day, Try date from given Range</h1>
       </div>
-      <div>
-        <!-- <img src="" id="notFoundq" style="display: none;" alt="" /> -->
-        <div id="notFound" class="notFound" style="display: none;">
-          <h1>No photos for this day, Try date from given Range</h1>
-        </div>
-        <img src="" id="pic" alt="" />
-        <img src="" id="frontImg" />
-        <img src="" id="rearImg" />
-        <img src="image/nothingFound.png" style="display: none;" id="loadImg" alt="" />
-      </div>
-      <div id="imageContainer" class="imageContainer"></div>
+      <img src="" id="pic" alt="" />
+      <img src="" id="frontImg" />
+      <img src="" id="rearImg" />
+      <img src="image/nothingFound.png" style="display: none;" id="loadImg" alt="" />
+    </div>
+    <div id="imageContainer" class="imageContainer"></div>
 
-      <div id="modalHeader">
-        <div class="button-container">
-          <button
-            id="b1"
-            onclick="prevPic();"
-            class="button"
-          >
-           
-            <span>
-              <img src="svg/prev.svg" alt="" id="prev">
-            </span>
-            <!-- <i class="fa fa-angle-left" id="prev"></i> -->
-            <!-- <i class="material-icons" id="prev">
+    <div id="modalHeader">
+      <div class="button-container">
+        <button id="b1" onclick="prevPic();" class="button">
+
+          <span>
+            <img src="svg/prev.svg" alt="" id="prev">
+          </span>
+          <!-- <i class="fa fa-angle-left" id="prev"></i> -->
+          <!-- <i class="material-icons" id="prev">
               keyboard_arrow_left
             </i> -->
-          </button>
-  
-          <button
-            id="b2"
-            onclick="nextPic();"
-            class="button"
-          >
+        </button>
+
+        <button id="b2" onclick="nextPic();" class="button">
           <span> <img src="svg/next.svg" alt="" id="next"></span>
           <!-- <i class="fa fa-angle-right" id="next"></i> -->
-          
-          </button>
-        </div>
-        <div id="closeDiv">
-          <button id="close" onmouseover="closeButton();">
-            <span><img src="svg/clear.svg" alt=""></span>
-            <!-- <i class="material-icons  close">clear</i> -->
-          </button>
-          <!-- <button id="close" onmouseover="closeButton();"> -->
-        </div>
-      </div> 
-  
-      <section class="footer">
-        <div class="footer_logo">
-          <a href="https://github.com/blue-meadow">
-            <img src="svg/github.svg" alt="">
-          </a>
-        </div>
-        <div class="footer_heading">
-          <h3>The Cosmodrome Project V 0.0</h3>
-        </div>
-        
-      </section>
 
-      <div id="Top">
-        <button id="mybtn" onclick="goToTopOfThePage();">
-          <i class="fa fa-arrow-up" aria-hidden="true"></i>
         </button>
       </div>
+      <div id="closeDiv">
+        <button id="close" onmouseover="closeButton();">
+          <span><img src="svg/clear.svg" alt=""></span>
+          <!-- <i class="material-icons  close">clear</i> -->
+        </button>
+        <!-- <button id="close" onmouseover="closeButton();"> -->
+      </div>
+    </div>
 
-   
+    <section class="footer">
+      <div class="footer_logo">
+        <a href="https://github.com/blue-meadow">
+          <img src="svg/github.svg" alt="">
+        </a>
+      </div>
+      <div class="footer_heading">
+        <h3>The Cosmodrome Project V 0.0</h3>
+      </div>
+
+    </section>
+
+    <div id="Top">
+      <button id="mybtn" onclick="goToTopOfThePage();">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+      </button>
+    </div>
+
+
 
     <!-- <main class="main">
       <div class="heading">
@@ -740,8 +727,9 @@
       </div>
     </div> 
   -->
-  <div id="loading_bar" class="loading_bar">
-    Loading
-  </div>
-  </body>
+    <div id="loading_bar" class="loading_bar">
+      Loading
+    </div>
+</body>
+
 </html>

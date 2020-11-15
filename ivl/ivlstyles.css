@@ -836,7 +836,7 @@ body.modal-open {
   /* transition: all 0.1s ease-out; */
 }
 .home-page-search-box-container:focus-within {
-  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.32);
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.16);
   border: none;
 }
 
